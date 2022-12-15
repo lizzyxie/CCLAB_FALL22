@@ -1,0 +1,161 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+}
+
+.main-container {
+  position: absolute;
+  width: 5600px;
+  height: 102%;
+  background-color: rgb(229, 233, 203);
+  ;
+  z-index: -2;
+}
+
+#canvas-container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+header {
+  /* background-color: whitesmoke; */
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+nav {
+  /* float: inline-start width; */
+  /* background-color: white; */
+
+  width: 100%;
+  height: 100px;
+
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  position: absolute;
+  top: 75%;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-style: bold;
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(210, 130, 8);
+}
+
+/* article {
+  background-color: whitesmoke;
+  float: inline-start;
+  height: 1000px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+footer {
+  background-color: whitesmoke;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+} */
+
+h1 {
+  color: black;
+  font-style: italic;
+}
+
+h2 {
+  /* color: whitesmoke; */
+  font-style: italic;
+}
+
+h3 {
+  color: black;
+  font-style: italic;
+}
+
+.image-box {
+  position: absolute;
+  left: calc(90% + 300px);
+  top: 25%;
+  width: 10px;
+  height: 20px;
+}
+
+.image-box-2 {
+  position: absolute;
+  left: calc(115% + 300px);
+  top: 30%;
+  width: 40px;
+  height: 30px;
+}
+
+.image-box-3 {
+  position: absolute;
+  left: calc(145% + 300px);
+  top: 25%;
+  width: 40px;
+  height: 30px;
+}
+
+.image-box-4 {
+  position: absolute;
+  left: calc(170% + 300px);
+  top: 35%;
+  width: 70px;
+  height: 50px;
+}
+
+.image-box-5 {
+  position: absolute;
+  left: calc(206% + 300px);
+  top: 30%;
+  width: 70px;
+  height: 50px;
+}
+
+.image-box-6 {
+  position: absolute;
+  left: calc(248% + 300px);
+  top: 25%;
+  width: 70px;
+  height: 50px;
+}
+
+.image-box-7 {
+  position: absolute;
+  left: calc(273% + 300px);
+  top: 25%;
+  width: 70px;
+  height: 50px;
+}
